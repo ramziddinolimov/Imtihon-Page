@@ -125,16 +125,111 @@ body{
 
 
 
-.business-section{
-    width: 100% ;
-    background-image: url(/img/blur\ bg.png);
-    background-repeat: no-repeat;
+.business>.container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
 }
 
 .business-image{
-    width: 50%;
+    width: 500px;
+    margin-top: 100px;
 }
 
-.happy-image p {
-    display: flex;
+.business-content{
+    margin-left: 50px;
+    padding-top: 100px;
 }
+
+.business-content-link{
+    width: 71px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5855ee;
+}
+
+.business-content-subtext{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    width: 500px;
+    height: 145px;
+}
+
+.business-content-subtext2{
+    width: 570px;
+    height: 97px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6b6b6b;
+}
+
+
+
+
+
+
+
+.box>.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design{
+    width: 40%;
+    height: 470px;
+    background-color: #fff7ed;
+    margin: 10px;
+    border-radius: 2%;
+    position: relative;
+    transition: .3s;
+}
+
+.design-image{
+    width: 150px;
+    position: absolute;
+    height: 150px;
+    left: 30%;
+    top: 20%;
+    margin: 0 auto;
+}
+
+.design-title{
+    margin-top: 340px;
+    text-align: center;
+}
+
+.design-subtext{
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.design2{
+    width: 40%;
+    height: 470px;
+    background-color: #f2f3ff;
+    margin: 10px;
+    border-radius: 2%;
+    position: relative;
+    transition: .3s;
+}
+
+.design3{
+    width: 40%;
+    height: 470px;
+    background-color: #fff0f3;
+    margin: 10px;
+    border-radius: 2%;
+    position: relative;
+    transition: .3s;
+}
+
