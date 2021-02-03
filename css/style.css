@@ -233,3 +233,24 @@ body{
     transition: .3s;
 }
 
+.italic{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+
+.hr-black{
+    width: 1140px;
+    height: 10px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+.hr-blue{
+    width: 700px;
+    height: 10px;
+    background-color: #5855ee;
+    position: absolute;
+    bottom: 1%;
+    left: 26%;
+}
