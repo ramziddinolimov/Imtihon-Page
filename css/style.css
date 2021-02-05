@@ -17,7 +17,8 @@ body{
 }
 
 .navbar{
-    width: 1130px;
+
+    width: 1140px;
     height: 900px;
     background-color: #5855ee;
     border-radius: 20px;
@@ -26,16 +27,13 @@ body{
     
 }
 
-.nav-logo-image{
-    padding-top: 20px;
-    padding-left: 30px;
-}
+
 
 .navbar-icon{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 65%;
+    justify-content: space-around;
+    
 
 }
 
@@ -46,17 +44,18 @@ body{
 
 .navbar-list{
     display: flex;
-    align-items: center;
+    
     
 }
 
-.nav-join{
-    display: flex;
-    margin-left: 100px;
+.nav-join-image2{
+    padding-right: 30px;
 }
 .nav-join a {
     background-color: #ffc9d0;
-    padding: 10px 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
 }
 
 .navbar-link{
@@ -113,11 +112,16 @@ body{
     left: -1%;
 }
 
+.photo>.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .pc-img{
-    width: 65%;
+    width: 45%;
     position: absolute;
-    top: 100%;
-    left: 15%;
+    top: 60%;
+    left: 25%;
 }
 
 
@@ -582,10 +586,11 @@ body{
 .text-footer-input{
     position: absolute;
     left: 37%;
-    background-color: rgb(94, 174, 240);
+    background-color: rgb(171, 205, 233);
     width: 400px;
     height: 50px;
-    border: 5px solid rgb(8, 7, 6);
+    border: 2px solid rgb(8, 7, 6);
+    
 }
 
 .text-footer-button{
@@ -594,5 +599,20 @@ body{
     width: 100px;
     height: 50px;
     
+}
+
+
+
+
+.footer-hr{
+    color: white;
+    width: 1140px;
+    margin-top: 100px;
+}
+
+.footer-finish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
     
